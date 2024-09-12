@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "ms-azuretools.vscode-docker",
+    "dotenv.dotenv-vscode",
+    "biomejs.biome",
+    "usernamehw.errorlens",
+    "mylesmurphy.prettify-ts",
+    "inferrinizzard.prettier-sql-vscode",
+    "yoavbls.pretty-ts-errors"
+  ]
+}
