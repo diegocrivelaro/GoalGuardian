@@ -9,6 +9,7 @@ import { env } from '../env';
 
 import { createGoal } from '../functions/create-goal';
 import z from 'zod';
+import { getWeekPendingGoals } from '../functions/get-week-pending-goals';
 
 const app = fastify().withTypeProvider<ZodTypeProvider>();
 const port = +env.SERVER_PORT;
@@ -35,6 +36,12 @@ app.post(
     });
   }
 );
+
+app.get('/peding-goals', async () => {
+  const { getPendingGolas } = await getWeekPendingGoals();
+
+  return { getPendingGolas };
+});
 
 app
   .listen({
