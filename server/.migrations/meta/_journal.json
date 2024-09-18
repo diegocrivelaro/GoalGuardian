@@ -15,6 +15,13 @@
       "when": 1726094228211,
       "tag": "0001_minor_silk_fever",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1726701415188,
+      "tag": "0002_workable_pet_avengers",
+      "breakpoints": true
     }
   ]
 }
